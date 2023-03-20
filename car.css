@@ -1,0 +1,45 @@
+body,html {
+    margin: 0px;
+    padding: 0px;
+    background:
+    url(https://png.pngtree.com/background/20210709/original/pngtree-technology-car-light-effect-blockchain-picture-image_921344.jpg)
+    center / cover no-repeat fixed;
+    text-transform: capitalize;
+  
+   }
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card{
+ overflow: hidden;
+ width: 100%;
+ height: 200px;
+ margin: 150px;
+ padding: 50px ;
+ transform: scale(1.2);
+ font-family: monospace;
+ background: transparent;
+ color: cadetblue;
+ background-color: rgba(27, 12, 12, 0.45);
+
+}
+
+.name{
+     border: 1px solid rgb(15, 151, 185);
+     border-radius: 20px;
+     box-shadow: 0 0 10px 1px rgba(197, 63, 63, 0.25);
+     font-family: monospace;
+     color: cadetblue;
+     backdrop-filter: blur(15px);
+     margin: 30px;
+     padding: 30px;
+     width: 100%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
